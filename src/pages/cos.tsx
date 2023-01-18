@@ -1,1 +1,1 @@
-export const CardUploadImage = () => <input type="text" />
+export const CardConfigCos = () => <input type="text" />
