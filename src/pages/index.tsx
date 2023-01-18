@@ -6,6 +6,7 @@ import { useState } from "react"
 
 import { CardUploadImage } from "@/components/CardUploadImage"
 import { useGlobalShortcut } from "@/hooks/tauri/shortcuts"
+import { CardConfigCos } from "@/pages/cos"
 
 const Home: NextPage = () => {
   const [buttonDesc, setButtonDesc] = useState<string>(
@@ -38,6 +39,7 @@ const Home: NextPage = () => {
 
         <div>
           <CardUploadImage />
+          <CardConfigCos />
         </div>
       </main>
 
