@@ -1,16 +1,10 @@
-
-export const CardConfigCos = () => (
-    <form>
-        <label htmlFor="fname">First name:</label>
-        <br>
-
-        <input type="text" id="fname" name="fname" value="">
-            <br>
-
-            <label htmlFor="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname" value="">
-                <br>
-                    <br>
-                <input type="submit" value="Submit">
-    </form>
-)
+export const CardConfigCos = () => {
+  return (
+    <div>
+      <form className="m-4 max-w-xs rounded-xl border border-gray-200 p-6 text-left text-inherit transition-colors hover:border-blue-600 hover:text-blue-600 focus:border-blue-600 focus:text-blue-600 active:border-blue-600 active:text-blue-600">
+        <label htmlFor="secretId">Secret Id:</label>
+        <input className="ml-2" type="text" />
+      </form>
+    </div>
+  )
+}
