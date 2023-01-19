@@ -17,6 +17,10 @@ export const CardConfigCos = () => {
         <label htmlFor="secretId">AppID:</label>
         <input className="ml-4 border border-gray-200" type="text" />
         <br />
+
+        <label htmlFor="secretId">Zoom:</label>
+        <input className="ml-4 border border-gray-200" type="text" />
+        <br />
       </form>
     </div>
   )
