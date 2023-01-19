@@ -8,11 +8,15 @@ export const CardConfigCos = () => {
 
         <label htmlFor="secretId">Secret Key:</label>
         <input className="ml-4 border border-gray-200" type="text" />
-
         <br />
 
         <label htmlFor="secretId">Bucket:</label>
         <input className="ml-4 border border-gray-200" type="text" />
+        <br />
+
+        <label htmlFor="secretId">AppID:</label>
+        <input className="ml-4 border border-gray-200" type="text" />
+        <br />
       </form>
     </div>
   )
